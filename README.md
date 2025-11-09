@@ -1,5 +1,8 @@
 # st_game_engine
 
+> This is a personal, after-hours learning project.  
+> Not an official / production-ready engine.
+
 A small C++/CMake playground for building a simple game-style app on top of **raylib**.
 
 Current features:

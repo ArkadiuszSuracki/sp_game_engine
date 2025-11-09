@@ -1,3 +1,0 @@
-/home/arkadiusz-suracki/projects/st_game_engine/build/CMakeFiles/st_game_engine.dir
-/home/arkadiusz-suracki/projects/st_game_engine/build/CMakeFiles/edit_cache.dir
-/home/arkadiusz-suracki/projects/st_game_engine/build/CMakeFiles/rebuild_cache.dir

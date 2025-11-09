@@ -1,4 +1,3 @@
-````markdown
 # st_game_engine
 
 A small C++/CMake playground for building a simple game-style app on top of **raylib**.
@@ -7,7 +6,7 @@ Current features:
 
 - window settings loaded from `config.ini`
 - embedded Roboto font loaded from memory (`resources/fonts/roboto_font.h`)
-- simple MVC-ish project layout (`core/`, `controllers/`, `views/`, `resources/`)
+- simple MVC-ish project layout (`core/`, `controllers/`, `views`, `resources`)
 - main menu (Play Game, Options, Exit) controlled with arrow keys
 - options screen with fullscreen toggle and “back”
 - game screen with a basic 3D scene and FPS-like camera (WASD + mouse)
@@ -41,15 +40,15 @@ st_game_engine/
         ├── MenuView.h / .cpp
         ├── OptionsView.h / .cpp
         └── GameView.h / .cpp
-````
+```
 
 ## Build
 
 Requirements:
 
-* CMake
-* C++17 compiler
-* raylib (installed as a system library)
+- CMake
+- C++17 compiler
+- raylib (installed as a system library)
 
 Example on Ubuntu:
 
@@ -83,30 +82,27 @@ If the file is missing, defaults are used.
 
 **Menu:**
 
-* ↑ / ↓ – navigate
-* Enter – select
+- ↑ / ↓ – navigate
+- Enter – select
 
 **Options:**
 
-* ↑ / ↓ – select entry
-* ← / → – change value (fullscreen)
-* Enter on “Back” – return to menu
+- ↑ / ↓ – select entry
+- ← / → – change value (fullscreen)
+- Enter on “Back” – return to menu
 
 **Game:**
 
-* Mouse – look
-* W A S D – move
-* Space / Left Ctrl – up / down
-* Shift – faster
-* ESC – back to menu
+- Mouse – look
+- W A S D – move
+- Space / Left Ctrl – up / down
+- Shift – faster
+- ESC – back to menu
 
 **Debug:**
 
-* `~` (grave) – show/hide debug overlay
+- `~` (grave) – show/hide debug overlay
 
 ## License
 
 MIT
-
-```
-```
